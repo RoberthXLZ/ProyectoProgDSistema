@@ -1,3 +1,7 @@
+#include "miLista.h"
+#include <stdlib.h>
+#include<stdio.h>
+
 /*
 @autor: Roberth Loor
 @Descripcion: Metodo que me permite agregar o insertar un objeto al inicio de la lista

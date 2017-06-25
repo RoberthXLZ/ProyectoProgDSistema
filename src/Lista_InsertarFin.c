@@ -1,3 +1,7 @@
+#include "miLista.h"
+#include <stdlib.h>
+#include <stdio.h>
+
 /*
 *@ Autor: Roberth Loor
 *@ Descripción: Metodo que inserta un objeto pasado por parametro al final de la lista. 
@@ -5,7 +9,7 @@
 */
 int Lista_InsertarFin(ListaEnlazada *lista, void *objeto){
 	// En caso de que la lista no exista o el objeto sea igual a NULL
-	if(lista==NULL|| objeto==NULL)
+	if(lista==NULL)
 		return 0;
 	//Agregamos un nodo nuevo de tipo ElementoLista donde se almacenara el objeto pasado por parametro
 	ElementoLista *nuevo=NULL;
@@ -33,3 +37,6 @@ int Lista_InsertarFin(ListaEnlazada *lista, void *objeto){
     lista->numeroElementos += 1;
   return 1;
 }
+
+
+

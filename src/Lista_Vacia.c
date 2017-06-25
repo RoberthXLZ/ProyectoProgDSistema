@@ -11,5 +11,5 @@ int Lista_Vacia(ListaEnlazada *lista){
 		lista->ancla.siguiente=NULL;
 		lista->ancla.anterior=NULL;
 		lista->ancla.objeto=NULL;
-		return litsa->numeroElementos=0;
+		return lista->numeroElementos=0;
 	}
